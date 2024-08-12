@@ -1,0 +1,17 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="flipperzero_cpp_debugging_issue_example",  # Must be unique
+    name="App flipperzero_cpp_debugging_issue_example",  # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="flipperzero_cpp_debugging_issue_example_app",
+    stack_size=2 * 1024,
+    fap_category="Examples",
+    # Optional values
+    # fap_version="0.1",
+    fap_icon="flipperzero_cpp_debugging_issue_example.png",  # 10x10 1-bit PNG
+    # fap_description="A simple app",
+    # fap_author="J. Doe",
+    # fap_weburl="https://github.com/user/flipperzero_cpp_debugging_issue_example",
+    fap_icon_assets="images",  # Image assets to compile for this application
+)
